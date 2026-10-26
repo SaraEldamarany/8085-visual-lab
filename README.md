@@ -173,26 +173,4 @@ After practicing with the website, students should be better able to:
 
 This project is intended to **teach concepts visually**, not to replace formal instruction or a validated microprocessor emulator. Its phase animation is pedagogical and does not reproduce exact 8085 bus cycles or timings. It currently implements only the supported instruction subset listed above. Students should verify advanced, timing-sensitive, or unsupported exercises in a full simulator or against the official instruction reference.
 
----
-
-## دليل سريع بالعربي
-
-**ما هو 8085 Visual Lab؟** موقع تعليمي تفاعلي يوضح بالتدريج كيف يتحول كود Assembly إلى Machine Code، وكيف ينفذ المعالج الأوامر ويقرأ البيانات من الذاكرة ويغير قيم الـRegisters والـFlags.
-
-**لماذا ندرس 8085؟** لأنه معالج بسيط نسبيًا يساعدنا على فهم المكونات الأساسية للـCPU، وحركة البيانات، وتنفيذ التعليمات، والجمع والطرح، والشروط والـLoops. الهدف هو فهم المبادئ التي تقوم عليها المعالجات، وليس حفظ تعليمات قديمة فقط.
-
-**طريقة الاستخدام:**
-
-1. افتح `index.html` أو رابط الموقع بعد نشره على GitHub Pages.
-2. اختر مثالًا جاهزًا، أو اكتب كود 8085 المدعوم في محرر الـAssembly.
-3. لإضافة مدخلات إلى الذاكرة، يمكنك كتابة `DATA 2050H, A8H`؛ هنا `2050H` **عنوان**، و`A8H` **القيمة المخزنة**.
-4. اضغط **Play the Story** وشاهد السطر الحالي مميزًا بلون واضح.
-5. تابع المراحل: **Fetch → Decode → Execute**، ثم راقب الـRegisters والـALU والـFlags والـMemory.
-6. استخدم **Pause** و**Next Tiny Step** لطرح سؤال على نفسك: «إيه اللي المفروض يتغير بعد التعليمة دي؟»
-7. قارن النتيجة المتوقعة بالنتيجة الفعلية، وجرّب تغيير الأرقام لفهم تأثيرها.
-
-**مهم:** `LDA 2050H` معناها **اقرأ البيانات الموجودة داخل العنوان 2050H**، وليس «ضع الرقم 2050H في الـAccumulator».
-
-**للمدرسين:** اعرض البرنامج على الشاشة، أوقف التنفيذ قبل كل خطوة، واطلب من الطلاب توقع قيمة الـRegister أو الـFlag التي ستتغير؛ ثم شغّل الخطوة التالية للمقارنة.
-
-**تنويه:** الموقع محاكي تعليمي مبسط لمجموعة من أوامر 8085، وليس بديلًا كاملًا عن GNUSim8085.
+--- GNUSim8085.
