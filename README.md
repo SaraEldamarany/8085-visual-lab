@@ -86,17 +86,6 @@ This difference is essential for correctly interpreting assembly programs.
 
 The application is static and runs entirely in the browser. There is **no build step, external package, or server requirement** for the bundled files.
 
-### Option 2 — Publish with GitHub Pages
-
-1. Create a GitHub repository and upload the contents of this project to its root directory.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then save.
-5. Once deployment completes, open the published website. Its typical URL is:
-
-   `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`
-
-Make sure the repository root contains `index.html`, `style.css`, and `script.js` — not another folder containing them.
 
 ## How to use the simulator in a lesson
 
